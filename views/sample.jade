@@ -1,0 +1,18 @@
+doctype html 
+html 
+    head 
+        title jade Page 
+    body 
+        h1 hello user
+
+        ul 
+            -for(var i=0;i<10;i++){
+                li Welcome 
+            -}
+        
+        - var items=["Coffee","Tea","icecream"]
+        ul 
+            - for item in items 
+                li #{item}
+        
+        img(src="https://th.bing.com/th/id/OIP.-gIOAOj6Lq-sgbQfVh_C2gHaF7?pid=ImgDet&rs=1")
